@@ -102,7 +102,7 @@
             margin-bottom: .5rem;
         }
         .sidebar-promo .promo-badge {
-            background: #22c55e;
+            background: #ffffff;
             color: #052e16;
             font-size: .65rem;
             font-weight: 700;

@@ -1,6 +1,9 @@
 # LAPORAN DEBUGGING KASIRKU
-
-| Nama Bug | Penyebab | Solusi | Status |
-|----------|----------|--------|--------|
-| Stok Minus | Tidak ada validasi jumlah beli vs stok | Tambah validasi jumlah pembelian tidak boleh melebihi stok | Fixed |
-| Eror Subtotal | Variabel harga bertipe string | Ubah tipe data menjadi integer sebelum dikalikan | Fixed |
+_______________________________________________________________________________________________________________________________________________________________________________
+| Nama Bug                     | Penyebab                                                | Solusi                                                                    | Status |
+|_____________________________________________________________________________________________________________________________________________________________________________|
+| Tabel produk tidak ditemukan | Tabel `produks` belum tersedia di database `db_kasirku` | Membuat/menjalankan migration tabel `produks` sesuai model yang digunakan | Fixed  |
+|------------------------------|---------------------------------------------------------|---------------------------------------------------------------------------|--------|
+| Undefined variable $produks  | Penulisan variabel kurang sehingga variabel yang        | Memperbaiki penulisan variabel menjadi $produks pada Pro                  | Fixed  |
+| huruf s                      | digunakan tidak sesuai                                  |                                                                           |        |
+|______________________________|_________________________________________________________|____________________________________________________________________________________|
